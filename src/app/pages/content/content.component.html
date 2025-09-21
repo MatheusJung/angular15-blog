@@ -1,0 +1,18 @@
+<header>
+    <app-menu-bar></app-menu-bar>
+    <app-menu-title menu_title={{content_Title}}></app-menu-title>
+</header>
+
+<div class="container_content">
+    <div class="content-title">
+        <p> Sinopse da historia de {{content_Title}}</p>
+        <hr>
+    </div>
+    <div class="content-cover">
+        <img src="{{content_Cover}}">   
+    </div>
+    <div class="content-description">{{content_Description}}</div>
+    <a [routerLink]="['']"> << voltar </a>
+</div>
+
+<router-outlet></router-outlet>

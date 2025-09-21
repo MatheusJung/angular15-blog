@@ -1,5 +1,5 @@
 .container_small-card{
-    height: 200px;
+    height: 160px;
     width:  600px;
     display: flex;
     flex-direction: row;
@@ -8,16 +8,11 @@
 
 .small-card_photo > img{
     margin-right: 20px;
-    width: 120px;
-    min-width: 120px;
+    height: 100px;
+    width: 150px;
+    min-width: 100px;
 }
-
-.small-card_title{
-    display: flex;
-    justify-content: center;
-}
-
 
 .small-card_title > h1 > a{
-    font-size: 20px;
+    font-size: 18px;
 }

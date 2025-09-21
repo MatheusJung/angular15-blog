@@ -1,0 +1,26 @@
+.container_content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content-title{
+    width: 700px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.content-cover > img{
+    height: 450px;
+    width: 700px;
+    min-width: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.content-description{
+    width: 700px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
